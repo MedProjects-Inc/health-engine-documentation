@@ -1,0 +1,269 @@
+{
+    "patient": {
+      "resource_type": "patient",
+      "resource_title": "Patient",
+      "data_model": "Patient",
+      "data_model_code": "patient_data_model",
+      "version": "0.90",
+      "last_updated_date": "FEB-18-2021",
+      "last_updated_by": "MM",
+      "sys_id": 123456,
+      "patient_id": 1011234567,
+      "patient_mrn": 1011234567,
+      "patient_code": "1011234567",
+      "date_of_birth": "YYYY-MM-DD",
+      "date_of_birth_display": "MMM-DD-YYYY",
+      "patient_photo_base64": "Base64 String",
+      "patient_photo_url": "Link to JPG Image File",
+      "is_active": true,
+      "is_merged": false,
+      "active_mrn": 0,
+      "is_deceased": false,
+      "date_of_death": "YYYY-MM-DD",
+      "is_fictitious_name": false,
+      "is_fictitious_date_of_birth": false,
+      "age": 0,
+      "age_sex": "42/M",
+      "age_years": 42,
+      "age_months": 0,
+      "age_days": 0,
+      "sex": {
+        "code": "",
+        "text": "",
+        "display": ""
+      },
+      "sex_code": "M",
+      "sex_text": "Male",
+      "sex_display": "Man",
+      "gender": {
+        "code": "",
+        "text": "",
+        "display": ""
+      },
+      "primary_name": {
+        "sys_id": 123456,
+        "type": {
+          "code": "P",
+          "text": "Primary",
+          "display": ""
+        },
+        "type_code": "P",
+        "type_text": "Primary",
+        "type_display": "",
+        "prefix": "Mr.",
+        "first": "Juan Carlos",
+        "middle": "Reyes",
+        "last": "Santos",
+        "suffix": "",
+        "degrees": "",
+        "full": "Mr. Juan Carlos Reyes Santos",
+        "display": "??? SANTOS, Juan Carlos Reyes",
+        "banner_name": "SANTOS, Juan Carlos Reyes",
+        "banner_html": "<span class=\"banner_name\"><span class=\"banner_last_name\">SANTOS</span>, Juan Carlos R.</span>",
+        "is_default": true,
+        "is_primary": true
+      },
+      "names": [
+        {
+          "sys_id": 123456,
+          "type": {
+            "code": "A",
+            "text": "Alias",
+            "display": "Other Names"
+          },
+          "type_code": "A",
+          "type_text": "Alias",
+          "type_display": "Other Names",
+          "prefix": "",
+          "first": "",
+          "middle": "",
+          "last": "",
+          "suffix": "",
+          "degrees": "",
+          "full": "",
+          "display": "",
+          "banner_html": "",
+          "is_default": false,
+          "is_primary": false
+        },
+        {
+          "sys_id": 123456,
+          "type": {
+            "code": "P",
+            "text": "Primary",
+            "display": ""
+          },
+          "prefix": "",
+          "first": "",
+          "middle": "",
+          "last": "",
+          "suffix": "",
+          "degrees": "",
+          "full": "",
+          "display": "",
+          "banner_html": "",
+          "is_default": false,
+          "is_primary": false
+        }
+      ],
+      "contact_persons": [
+        {
+          "sys_id": 123456,
+          "relationship": {
+            "code": "",
+            "text": "",
+            "display": ""
+          },
+          "relationship_code": "",
+          "relationship_text": "",
+          "relationship_display": "",
+          "type": {
+            "code": "A",
+            "text": "Alias",
+            "display": "Other Names"
+          },
+          "type_code": "",
+          "type_text": "",
+          "type_display": "",
+          "prefix": "",
+          "first": "",
+          "middle": "",
+          "last": "",
+          "suffix": "",
+          "degrees": "",
+          "full": "",
+          "display": "",
+          "banner_html": "",
+          "contact_mrn": "",
+          "contact_number": "",
+          "is_emergency_contact": true,
+          "is_active": true
+        }
+      ],
+      "addresses": [
+        {
+          "type": {
+            "code": "PRE",
+            "text": "Present",
+            "display": "Present Address"
+          },
+          "type_code": "PRE",
+          "type_text": "Present",
+          "type_display": "Present Address",
+          "line1": "",
+          "line2": "",
+          "barangay_code": "",
+          "barangay_text": "",
+          "city_code": "",
+          "city_text": "",
+          "state_code": "",
+          "state_text": "",
+          "country_code": "",
+          "country_text": "",
+          "zip_code": "",
+          "zip_code_text": "",
+          "is_default": false,
+          "is_primary": false
+        },
+        {
+          "type": {
+            "code": "PRE",
+            "text": "Present",
+            "display": "Present Address"
+          },
+          "type_code": "PRE",
+          "type_text": "Present",
+          "type_display": "Present Address",
+          "line1": "",
+          "line2": "",
+          "barangay_code": "",
+          "barangay_text": "",
+          "city_code": "",
+          "city_text": "",
+          "state_code": "",
+          "state_text": "",
+          "country_code": "",
+          "country_text": "",
+          "zip_code": "",
+          "zip_code_text": "",
+          "is_default": false,
+          "is_primary": false
+        }
+      ],
+      "marital_status": {
+        "code": "",
+        "text": "",
+        "display": ""
+      },
+      "marital_status_code": "M",
+      "marital_status_text": "Married",
+      "marital_status_display": "Married",
+      "religion": {
+        "code": "",
+        "text": "",
+        "display": ""
+      },
+      "religion_code": "RC",
+      "religion_text": "Roman Catholic",
+      "religion_display": "Roman Catholic",
+      "nationality_code": "FIL",
+      "nationality_text": "Filipino",
+      "nationality_display": "",
+      "attributes": [
+        {
+          "code": "M",
+          "text": "Male",
+          "display": "",
+          "value_set_code": "1",
+          "value_set_description": "Administrative Sex"
+        }
+      ],
+      "present_job": {
+        "occupation_code": "",
+        "occupation_text": "",
+        "industry_code": "",
+        "industry_text": "",
+        "employer_code": "",
+        "employer_text": "",
+        "employer_contact_number": "",
+        "employer_address": ""
+      },
+      "contact_details": [
+        {
+          "type": {
+            "code": "",
+            "text": "",
+            "display": ""
+          },
+          "type_code": "M",
+          "type_text": "Mobile",
+          "type_display": "",
+          "prefix": "+63",
+          "value": "9177778888",
+          "provider": "Globe",
+          "is_default": false,
+          "is_primary": false
+        }
+      ],
+      "identifiers": [
+        {
+          "sys_id": 123456,
+          "type": {
+            "code": "",
+            "text": "",
+            "display": ""
+          },
+          "type_code": "DL",
+          "type_text": "Driver's License",
+          "type_display": "",
+          "id_number": "",
+          "id_image_base64": "",
+          "id_image_url": "",
+          "notes": ""
+        }
+      ],
+      "is_newborn": false,
+      "mothers_mrn": "",
+      "registered_datetime": "DATETIME when patient was registered."
+    }
+  }

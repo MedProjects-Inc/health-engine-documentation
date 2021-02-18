@@ -1,0 +1,170 @@
+{
+    "visit": {
+      "resource_type": "visit",
+      "resource_title": "Visit",
+      "sys_id": 123456,
+      "patient_mrn": 1011234567,
+      "patient_code": "1011234567",
+      "patient_id": "1011234567",
+      "visit_id": "",
+      "visit_number": 2102126789,
+      "admit_datetime": "",
+      "transfer_datetime": "",
+      "discharge_datetime": "",
+      "patient_class_code": "I",
+      "patient_class_text": "Inpatient",
+      "location": {
+        "location_code": "",
+        "location_text": "",
+        "type_code": "",
+        "type_text": "",
+        "bed": "",
+        "room": "",
+        "floor": "",
+        "unit_code": "",
+        "unit_text": "",
+        "department_code": "",
+        "department_text": "",
+        "building": ""
+      },
+      "pricing": {
+        "scheme_code": "",
+        "scheme_text": "",
+        "unit_price": "PHP 1,500"
+      },
+      "visit_type_code": "",
+      "visit_type_text": "",
+      "mode_of_arrival_code": "",
+      "mode_of_arrival_text": "",
+      "hospital_service_code": "IM",
+      "hospital_service_text": "Internal Medicine",
+      "priority_code": "",
+      "priority_text": "",
+      "admitting_chief_complaint": "Free Text. For recording use only. Not for EMR purposes.",
+      "admitting_diagnosis": "Free Text. For recording use only. Not for EMR purposes.",
+      "is_from_er": false,
+      "payors": [
+        {
+          "rank": 1,
+          "payor_type_code": "",
+          "payor_type_text": "",
+          "payor_hmo": {
+            "hmo_code": "",
+            "hmo_text": "",
+            "coverage": "",
+            "coverage_type": "???",
+            "loa_number": "",
+            "loa_datetime": "",
+            "approval_code": "",
+            "approval_datetime": "",
+            "file_upload_url": "String"
+          },
+          "payor_person": {
+            "relationship_code": "",
+            "relationship_text": "",
+            "relationship_display": "",
+            "prefix": "",
+            "first": "",
+            "middle": "",
+            "last": "",
+            "suffix": "",
+            "degrees": "",
+            "full": "",
+            "display": "",
+            "contact_number": "",
+            "file_upload_url": "String"
+          }
+        }
+      ],
+      "doctors": [
+        {
+          "role_code": "ADM",
+          "role_text": "Admitting MD",
+          "doctor_id": "123123",
+          "doctor_name": {
+            "prefix": "Dr.",
+            "first": "Mario",
+            "middle": "Delgado",
+            "last": "Villa",
+            "suffix": "",
+            "full": "Dr. Mario D. Villa",
+            "display": "Dr. Mario D. Villa"
+          },
+          "specialty_code": "",
+          "specialty_text": "",
+          "department_code": "",
+          "department_text": "",
+          "is_admitting_md": true,
+          "is_attending_md": true
+        },
+        {
+          "role_code": "REF",
+          "role_text": "Referring MD",
+          "doctor_id": "798798",
+          "doctor_name": {
+            "prefix": "Dr.",
+            "first": "Ricardo",
+            "middle": "Santos",
+            "last": "Dela Cruz",
+            "suffix": "",
+            "full": "Dr. Ricardo S. Dela Cruz",
+            "display": "Dr. Ricardo S. Dela Cruz"
+          },
+          "specialty_code": "",
+          "specialty_text": "",
+          "department_code": "",
+          "department_text": "",
+          "is_admitting_md": false,
+          "is_attending_md": false
+        }
+      ],
+      "transfers": [
+        {
+          "event_id": 123,
+          "visit_number": 2102126789,
+          "transfer_datetime": "Datetime when transfer happened.",
+          "previous": {
+            "patient_class_code": "I",
+            "patient_class_text": "Inpatient",
+            "hospital_service_code": "IM",
+            "hospital_service_text": "Internal Medicine",
+            "priority_code": "",
+            "priority_text": ""
+          },
+          "from": {
+            "location_code": "",
+            "location_text": "",
+            "type_code": "",
+            "type_text": "",
+            "bed": "",
+            "room": "",
+            "floor": "",
+            "unit_code": "",
+            "unit_text": "",
+            "department_code": "",
+            "department_text": "",
+            "building": ""
+          },
+          "to": {
+            "location_code": "",
+            "location_text": "",
+            "type_code": "",
+            "type_text": "",
+            "bed": "",
+            "room": "",
+            "floor": "",
+            "unit_code": "",
+            "unit_text": "",
+            "department_code": "",
+            "department_text": "",
+            "building": ""
+          }
+        }
+      ],
+      "tags": {
+        "is_pregnant": false,
+        "is_readmission": false,
+        "is_cancer_patient": false
+      }
+    }
+  }

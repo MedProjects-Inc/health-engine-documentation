@@ -1,0 +1,95 @@
+{
+  "order_item": {
+    "data_model": "Order Item",
+    "data_model_code": "order_item",
+    "version": "0.99",
+    "last_updated": "FEB-18-2021",
+    "patient_id": 1011234567,
+    "sys_id": 1011234567,
+    "patient_mrn": 1011234567,
+    "patient_code": "1011234567",
+    "visit_number": 2102126789,
+    "visit_id": "2102126789",
+    "att_md_code": "",
+    "att_md_name": "",
+    "order_group_id": 123,
+    "order_item_id": 4567,
+    "placer_group_number": "HL7 Messaging Requirement",
+    "placer_order_number": "HL7 Messaging Requirement",
+    "filler_order_number": "HL7 Messaging Requirement",
+    "item_code": "LAB34567",
+    "item_description": "Complete Blood Count",
+    "item_category": "HEM",
+    "order_type_code": "LAB",
+    "order_type_text": "Laboratory Test",
+    "service_section_code": "",
+    "service_section_text": "",
+    "service_department_code": "",
+    "service_department_text": "",
+    "order_quantity": 1,
+    "order_priority_code": "R",
+    "order_priority_text": "Routine",
+    "order_datetime": "20210222123456",
+    "order_effective_datetime": "20210222123456",
+    "order_request_datetime": "20210222123456",
+    "clinical_indication": "",
+    "order_notes": "Remarks, special instructions and other notes",
+    "order_status_code": "N",
+    "order_status_text": "New",
+    "encoder_user_id": 1,
+    "encoder_username": "N",
+    "ord_md_id": 1,
+    "ord_md_code": 1,
+    "ord_md_name": "1",
+    "ord_md": {
+      "role_code": "",
+      "role_text": "",
+      "doctor_id": "",
+      "doctor_name": {
+        "prefix": "Dr.",
+        "first": "Mario",
+        "middle": "Delgado",
+        "last": "Villa",
+        "suffix": "",
+        "full": "Dr. Mario D. Villa",
+        "display": "Dr. Mario D. Villa"
+      },
+      "specialty_code": "",
+      "specialty_text": "",
+      "department_code": "",
+      "department_text": "",
+      "is_adm_md": false,
+      "is_att_md": false
+    },
+    "pricing": {
+      "scheme_code": "",
+      "scheme_text": "",
+      "unit_price": ""
+    },
+    "laboratory": {
+      "specimen_type_code": "",
+      "specimen_type_text": "",
+      "collection_site_code": "",
+      "collection_site_text": ""
+    },
+    "radiology": {
+      "last_menstrual_period": "Date",
+      "medical_implants": "Notes"
+    },
+    "medication": {
+      "generic_name": "Amoxicillin",
+      "s2_license_number": "",
+      "frequency": "",
+      "dosage": "",
+      "route": "",
+      "duration": "",
+      "sig_instructions": ""
+    },
+    "dietary": {
+    },
+    "supply": {
+    },
+    "procedure": {
+    }
+  }
+}
