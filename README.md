@@ -15,7 +15,7 @@
 
 ## Modules
 
-- [Ordering Module](modules/ordering.md): My notes on Ordering Module
+- [Ordering Module](modules/ordering/README.md): My notes on Ordering Module
 
 ## Specific Requirements
 
