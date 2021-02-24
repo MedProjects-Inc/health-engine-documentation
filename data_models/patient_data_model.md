@@ -1,3 +1,3 @@
 # Patient Data Model
 
-> JSON and documentation still for editing.
+- [patient_data_model](patient_data_model.json)

@@ -17,7 +17,7 @@
       "patient_photo_url": "Link to JPG Image File",
       "is_active": true,
       "is_merged": false,
-      "active_mrn": 0,
+      "active_patient_id": 0,
       "is_deceased": false,
       "date_of_death": "YYYY-MM-DD",
       "is_fictitious_name": false,
@@ -263,7 +263,7 @@
         }
       ],
       "is_newborn": false,
-      "mothers_mrn": "",
+      "mothers_patient_id": "",
       "registered_datetime": "DATETIME when patient was registered."
     }
   }

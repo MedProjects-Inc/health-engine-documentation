@@ -1,6 +1,4 @@
-# Patient ID, Visit Number and Item Code
-
-Display formats and generation algorithm for patient MRN and Visit Number.
+# Notes on Patient Administration, Encounter Management and MPI
 
 ## Patient ID
 
@@ -26,6 +24,8 @@ Display formats and generation algorithm for patient MRN and Visit Number.
   - `328 456 7890`
 - Should be stored as full integers for easy storage, sorting and retrieval
 
+---
+
 ## Visit Number
 
 - Named `visit_number` in JSON.
@@ -38,20 +38,33 @@ Display formats and generation algorithm for patient MRN and Visit Number.
 - No need to do special formatting for display.
   - Can be displayed as is.
 
-## Item Code
+---
 
-- Codes for Orderable Items
-- Used primarily by the Ordering Module
+## Some Generic and Advanced Functions
 
-### Format and Generation
+### Patient Temporary Patient (`register_temporary_patient`)
 
-- 8-digit **ALPHA-numeric** Code
-- Department Code `DEP` + `5 digits`
-  - `LAB` + `12345` = `LAB12345`
-  - `RAD` + `34567` = `RAD34567`
-  - `PHA` + `67890` = `PHA67890`
-- No need to do special formatting for display.
-  - Can be displayed as is.
-- The last 5 digits are NOT auto-incremented in the system because these are externally maintained code sets.
-  - In the future, we can have a UI facility to manage this code set where an auto-increment can be done.
-  - But, FOR NOW, this code set will be managed externally (via Excel or CSV) and uploaded to the system.
+There are instances where it's needed to quickly generate a temporary identity in the system for a patient, e.g. emergency, unconscious, no identity.
+
+Parameters needed for generation:
+
+- Sex: Male (`M`) or Female (`F`)
+- Estimated age (integer): Used to compute `date_of_birth`
+
+Actions:
+
+- Generate an ACTIVE `patient_id`. No need to create a temporary one.
+- Generate a temporary name:
+  - Type: `Temporary`
+  - Last Name: `Changeme`
+  - First Name (Male): `John` + ` ` + `000` (Auto-generated Number)
+  - First Name (F): `Jane` + ` ` + `000` (Randomly-generated Number)
+  - Middle Name: Randomly-generated 3 letters, e.g. `Mut`, `Xyz`, `Pth`
+  - Sample Output:
+    - `CHANGEME, John 298 Mut`
+    - `CHANGEME, Jane 357 Xyz`
+- Generate a temporary date of birth:
+  - Compute only year from age.
+  - Use January 1 as default month and day.
+
+---
