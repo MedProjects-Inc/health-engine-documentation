@@ -1,4 +1,4 @@
-# Terminologies
+# Standards and Terminologies across the Health Engine Suite
 
 Let's document common terms used across Health Engine!
 

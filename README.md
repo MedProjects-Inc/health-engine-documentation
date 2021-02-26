@@ -10,12 +10,12 @@
 - [Data Models](data_models)
   - [Cart Item Documentation](data_models/cart_item_data_model.md) - Ready for use.
   - [Order Item Documentation](data_models/order_item_data_model.md) - Ready for use.
-  - [Patient](data_models/patient_data_model.md) - *Still for updating.*
-  - [Visit](data_models/visit_data_model.md) - *Still for updating.*
 
 ## Modules
 
-- [Ordering Module](modules/ordering/README.md): My notes on Ordering Module
+- [Patient Administration Module Notes](modules/patient_administration_notes.md)
+- [Ordering Module Notes](modules/ordering_module_notes.md)
+- [Billing Module Notes](modules/billing_module_notes.md)
 
 ## Specific Requirements
 
